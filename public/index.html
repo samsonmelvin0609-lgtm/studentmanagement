@@ -16,25 +16,25 @@
   <body>
     <div class="page-shell">
       <section class="hero-panel">
-        <div class="hero-badge">Student Management System</div>
-        <h1>Manage students, marks, and teacher logins from one clean dashboard.</h1>
+        <div class="hero-badge">ScholarTrack</div>
+        <h1>Simple student records and marks management.</h1>
         <p>
-          ScholarTrack is a simple school portal built with HTML, CSS, JavaScript, and Node.js.
-          Create an account, add students, and record marks by subject and exam.
+          Add students, store marks by exam, and manage teacher accounts from one clear,
+          easy-to-use dashboard.
         </p>
-        <div class="hero-grid">
-          <article>
-            <span>Secure Access</span>
-            <strong>JWT login with protected APIs</strong>
-          </article>
-          <article>
-            <span>Marks Entry</span>
-            <strong>Save scores per subject and exam</strong>
-          </article>
-          <article>
-            <span>Deploy Ready</span>
-            <strong>Built for Vercel + Neon Postgres</strong>
-          </article>
+        <div class="hero-points">
+          <div class="hero-point">
+            <strong>Accounts</strong>
+            <span>Secure login and registration</span>
+          </div>
+          <div class="hero-point">
+            <strong>Students</strong>
+            <span>Store class, email, and roll number</span>
+          </div>
+          <div class="hero-point">
+            <strong>Marks</strong>
+            <span>Track subject scores for each exam</span>
+          </div>
         </div>
       </section>
 
@@ -96,15 +96,15 @@
         <section id="dashboardSection" class="hidden">
           <div class="stats-grid">
             <article class="card stat-card">
-              <span>Total Students</span>
+              <span>Students</span>
               <strong id="studentCount">0</strong>
             </article>
             <article class="card stat-card">
-              <span>Total Mark Entries</span>
+              <span>Marks</span>
               <strong id="markCount">0</strong>
             </article>
             <article class="card stat-card">
-              <span>Average Score</span>
+              <span>Average</span>
               <strong id="averageScore">0%</strong>
             </article>
           </div>
@@ -135,7 +135,7 @@
               <div class="section-head">
                 <div>
                   <p class="eyebrow">Student Records</p>
-                  <h3>Students and marks</h3>
+                  <h3>Student list</h3>
                 </div>
                 <button id="refreshButton" class="ghost-button" type="button">Refresh</button>
               </div>
